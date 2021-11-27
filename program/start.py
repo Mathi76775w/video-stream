@@ -63,7 +63,7 @@ async def start_(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButhttps://t.me/{BOT_USERNAME}?startgroup=trueton(
+                    InlineKeyboardButton(
                         "👨‍💻 ᴅᴇᴠʟᴏᴘᴇʀ's",
                         url=f"t.me/deecodeDevs",
                     )
