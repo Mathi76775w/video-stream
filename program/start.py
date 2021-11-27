@@ -54,36 +54,36 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
+💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴠɪᴅᴇᴏ ɴᴅ ᴍᴜsɪᴄ ᴀʟsᴏ ᴏɴ ɢʀᴏᴜᴘs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ's ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴘᴏᴡᴇʀ ʙʏ ᴘʏᴛɢᴄᴀʟʟs!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+💡 **ɪ ᴀᴍ ᴘʟᴀʏ ᴍᴜ𝚜ɪᴄ ᴠᴇʀʏ ꜰᴀ𝚜ᴛ ᴀɴᴅ 𝚜ᴍᴏᴏᴛʜʟʏ.. >> ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [𝙳𝚎𝙲𝚘𝚍𝚎-𝙳𝚎𝚟𝚜 👿](https://t.me/DeeCodeDevs)!**
 
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+📺 ** 𝙻ᴇᴛ𝚜 𝙴ɴᴊᴏʏ 𝙲ɪɴᴇᴍᴀᴛɪᴄ 𝚅ɪᴇᴡ 𝙾ғ 𝙶ʀᴏᴜᴘ 𝚅ɪᴅᴇᴏ 𝙿ʟᴀʏᴇʀ 𝚆ɪᴛʜ 𝚈ᴏᴜʀ 𝙵ʀɪᴇɴᴅ𝚜 ✨!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    InlineKeyboardButhttps://t.me/{BOT_USERNAME}?startgroup=trueton(
+                        "👨‍💻 ᴅᴇᴠʟᴏᴘᴇʀ's",
+                        url=f"t.me/deecodeDevs",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("😥 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🤔 ᴄᴏᴍᴍᴀɴᴅs", url=f""),
+                    InlineKeyboardButton("💾 sᴏᴜʀᴄᴇ", url=f"https://t.me/GitHub.com/teamdeecode/VcVideoPlayer"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "💫 ᴏꜰꜰɪᴄɪᴀʟ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "✨ ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "sᴜᴘᴘᴏʀᴛ ᴍᴇ 💕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
             ]
@@ -125,7 +125,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🚨 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
