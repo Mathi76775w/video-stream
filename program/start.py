@@ -71,7 +71,7 @@ async def start_(client: Client, message: Message):
                 [InlineKeyboardButton("😥 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("🤔 ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"),
-                    InlineKeyboardButton("💾 sᴏᴜʀᴄᴇ", url=f"https://t.me/GitHub.com/teamdeecode/VcVideoPlayer"),
+                    InlineKeyboardButton("💾 sᴏᴜʀᴄᴇ", url=f"https://gitHub.com/teamdeecode/VcVideoPlayer"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -83,7 +83,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ ᴍᴇ 💕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "sᴜᴘᴘᴏʀᴛ ᴍᴇ 💕", url=f"https://t.me/@{BOT_USERNAME}?startgroup=true",
                     )
                 ],
             ]
