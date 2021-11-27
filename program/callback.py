@@ -30,10 +30,10 @@ async def cbstart(_, query: CallbackQuery):
                         url=f"https://t.me/DeeCodeDevs",
                     )
                 ],
-                [InlineKeyboardButton("😥 ", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("😥 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🤔 ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"),
+                    InlineKeyboardButton("💾 sᴏᴜʀᴄᴇ", url=f"https://t.me/GitHub.com/teamdeecode/VcVideoPlayer"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -59,14 +59,14 @@ async def cbguides(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""❓ **Basic Guide for using this bot:**
 
-1.) **First, add me to your group.**
-2.) **Then, promote me as administrator and give all permissions except Anonymous Admin.**
-3.) **After promoting me, type /reload in group to refresh the admin data.**
-3.) **Add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.**
-4.) **Turn on the video chat first before start to play video/music.**
-5.) **Sometimes, reloading the bot by using /reload command can help you to fix some problem.**
+1.) **✨First, add me to your group.**
+2.) **💫Then, promote me as administrator and give all permissions except Anonymous Admin.**
+3.) **✨After promoting me, type /reload in group to refresh the admin data.**
+3.) **⚡Add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.**
+4.) **💫Turn on the video chat first before start to play video/music.**
+5.) **✨Sometimes, reloading the bot by using /reload command can help you to fix some problem.**
 
-📌 **If the userbot not joined to video chat, make sure if the video chat already turned on, or type /userbotleave then type /userbotjoin again.**
+🚨 **If the userbot not joined to video chat, make sure if the video chat already turned on, or type /userbotleave then type /userbotjoin again.**
 
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
