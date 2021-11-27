@@ -33,7 +33,7 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("😥 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("🤔 ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"),
-                    InlineKeyboardButton("💾 sᴏᴜʀᴄᴇ", url=f"https://t.me/GitHub.com/teamdeecode/VcVideoPlayer"),
+                    InlineKeyboardButton("💾 sᴏᴜʀᴄᴇ", url=f"https://gitHub.com/teamdeecode/VcVideoPlayer"),
                 ],
                 [
                     InlineKeyboardButton(
