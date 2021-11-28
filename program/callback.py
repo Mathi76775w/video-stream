@@ -62,7 +62,7 @@ async def cbguides(_, query: CallbackQuery):
 1.) **✨First, add me to your group(I Have Dual Assistant ✨).**
 2.) **💫Then, promote me as administrator and give all permissions except Anonymous Admin.**
 3.) **✨After promoting me, type /reload in group to refresh the admin data.**
-3.) **⚡Add @{ASSISTANT_NAME}&@pytgMusic_XD to your group or type /userbotjoin to invite her.**
+3.) **⚡Add @{ASSISTANT_NAME} and\n @pytgMusic_XD to your group or type /userbotjoin to invite her.**
 4.) **💫Turn on the video chat first before start to play video/music.**
 5.) **✨Sometimes, reloading the bot by using /reload command can help you to fix some problem.**
 
